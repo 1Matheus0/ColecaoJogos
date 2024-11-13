@@ -39,10 +39,10 @@ public class Game {
         this.title = title;
         this.year = year;
         this.genre = genre;
-        this.platforms = platforms;
+        this.platforms = platforms; 
         this.score = score;
         this.imgUrl = imgUrl;
-        shortDescription = shortDescription;
+        this.shortDescription = shortDescription;
         this.longDescription = longDescription;
     }
 
@@ -79,7 +79,7 @@ public class Game {
     }
 
     public String getPlataform() {
-        return platforms;
+        return platforms; 
     }
 
     public void setPlataform(String platforms) {
@@ -107,7 +107,7 @@ public class Game {
     }
 
     public void setShortDescription(String shortDescription) {
-        shortDescription = shortDescription;
+       this.shortDescription = shortDescription;
     }
 
     public String getLongDescription() {
